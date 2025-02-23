@@ -1,2 +1,5 @@
 cshogi: main.cpp
-	g++ main.cpp -o cshogi -Werror -pedantic 
+	g++ main.cpp -o target/cshogi -Werror -pedantic 
+
+clean:
+	rm -rf target
